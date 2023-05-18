@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n,m,a,b;
+    double p1,p2,x,y;
+    cin>>n>>m>>a>>b;
+    p1=n*a;
+    x= (b*n*1.0);
+    y= x/(m*1.0);
+    p2=ceil(y);
+    cout<<min(p1,p2);
+    return 0;
+}
